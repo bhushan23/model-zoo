@@ -1,0 +1,10 @@
+Pillow==10.0.1
+numpy==1.23.1
+opencv-python==4.8.0.76
+torch==1.13.1
+gitpython
+pytest==7.4.2
+requests
+torchvision
+tetra_hub
+gdown==4.7.1

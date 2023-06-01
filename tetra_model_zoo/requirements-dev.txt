@@ -1,0 +1,4 @@
+coverage==6.5.0
+pytest-xdist==3.3.1
+schema==0.7.5
+pyyaml==6.0.1
