@@ -27,7 +27,8 @@ setup(
     url="https://tetra.ai/",
     packages=find_packages(),
     python_requires=">=3.8, <3.11",
-    package_data={"tetra_model_zoo": ["**/*"]},
+    package_data={"tetra_model_zoo": ["**/*"]},\
+    include_package_data=True,
     install_requires=[line.strip() for line in open(requirements_path).readlines()],
     extras_require={
         model_dir.name: [line.strip() for line in open(model_dir / r_file).readlines()]
